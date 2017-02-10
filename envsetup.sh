@@ -219,8 +219,8 @@ function setpaths()
             ;;
         arm) toolchaindir=arm/arm-linux-androideabi-$targetgccversion/bin
             ;;
-        arm64) toolchaindir=aarch64/aarch64-linux-android-$targetgccversion/bin;
-               toolchaindir2=arm/arm-linux-androideabi-$targetgccversion2/bin
+        arm64) toolchaindir=aarch64/aarch64-linux-android-UBER-4.9/bin;
+               toolchaindir2=arm/arm-linux-androideabi-UBER-4.9/bin
             ;;
         mips|mips64) toolchaindir=mips/mips64el-linux-android-$targetgccversion/bin
             ;;
